@@ -1,9 +1,10 @@
+
 # 🌡️ Pipeline de Dados com IoT e Docker
 
 **Disciplina:** Disruptive Architectures: IoT, Big Data e IA
 **Instituição:** UNIFECAF
 **Autora:** Lais Goncalves Mendes | RA: 51212
-**Ano:** 2025
+**Ano:** 2026
 
 ---
 
@@ -60,7 +61,7 @@ pipeline-iot/
 
 ### 1. Clone o repositório
 ```bash
-git clone https://github.com/SEU_USUARIO/pipeline-iot.git
+git clone https://github.com/lais14mendes/pipeline-iot-docker-LM-RF-51212.git
 cd pipeline-iot
 ```
 
@@ -140,4 +141,4 @@ O pipeline aplica as seguintes etapas de limpeza:
 
 ---
 
-UNIFECAF · 2025
+UNIFECAF · 2026
