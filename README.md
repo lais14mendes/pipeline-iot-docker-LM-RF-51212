@@ -87,10 +87,10 @@ Edite o arquivo `.env` na raiz com suas credenciais (padrão já configurado).
 
 ### 6. Suba o container PostgreSQL
 ```bash
-docker run --name postgres-iot \
-  -e POSTGRES_PASSWORD=iot1234 \
-  -e POSTGRES_DB=iot_pipeline \
-  -p 5432:5432 -d postgres
+docker run --name postgres-iot
+-e POSTGRES_PASSWORD=iot1234
+-e POSTGRES_DB=iot_pipeline
+-p 5432:5432 -d postgres
 ```
 
 ### 7. Execute o pipeline de ingestão
