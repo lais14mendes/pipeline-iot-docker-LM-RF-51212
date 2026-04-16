@@ -1,4 +1,3 @@
-
 # 🌡️ Pipeline de Dados com IoT e Docker
 
 **Disciplina:** Disruptive Architectures: IoT, Big Data e IA
@@ -62,7 +61,7 @@ pipeline-iot/
 ### 1. Clone o repositório
 ```bash
 git clone https://github.com/lais14mendes/pipeline-iot-docker-LM-RF-51212.git
-cd pipeline-iot
+cd pipeline-iot-docker-LM-RF-51212
 ```
 
 ### 2. Baixe o dataset
@@ -141,4 +140,52 @@ O pipeline aplica as seguintes etapas de limpeza:
 
 ---
 
+## 📸 Capturas de Tela do Dashboard
+
+### Gráfico 1 — Temperatura Média por Dispositivo
+> View: `avg_temp_por_dispositivo` | Temperatura média do sensor Room Admin: 31,4 °C
+
+![Gráfico 1](screenshot_grafico1.png)
+
+---
+
+### Gráfico 2 — Leituras por Hora do Dia
+> View: `leituras_por_hora` | Pico de atividade às 14h com ~7.200 leituras
+
+![Gráfico 2](screenshot_grafico2.png)
+
+---
+
+### Gráfico 3 — Amplitude Térmica Diária
+> View: `temp_max_min_por_dia` | Máxima de 50°C, mínima de 20°C (Jan–Dez 2018)
+
+![Gráfico 3](screenshot_grafico3.png)
+
+---
+
+## 🔧 Comandos Git Utilizados
+
+```bash
+# Inicializar o repositório local
+git init
+
+# Adicionar todos os arquivos ao staging
+git add .
+
+# Criar o commit inicial
+git commit -m "Projeto inicial: Pipeline de Dados IoT"
+
+# Conectar ao repositório remoto no GitHub
+git remote add origin https://github.com/lais14mendes/pipeline-iot-docker-LM-RF-51212.git
+
+# Enviar para o GitHub
+git push -u origin main
+
+# Atualizar o repositório local
+git pull
+```
+
+---
+
 UNIFECAF · 2026
+
